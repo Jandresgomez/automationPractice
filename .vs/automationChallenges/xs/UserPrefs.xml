@@ -1,16 +1,23 @@
 ﻿<Properties StartupConfiguration="{C0FCA61A-C63B-4E83-A8BB-6617469EC1FF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="automationChallenges/ContactUs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="automationChallenges/SignIn.cs">
     <Files>
-      <File FileName="automationChallenges/ContactUs.cs" Line="29" Column="1" />
+      <File FileName="automationChallenges/SignIn.cs" Line="10" Column="16" />
+      <File FileName="automationChallenges/RegisterAccount.cs" Line="10" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="automationChallenges" expanded="True">
             <Node name="automationChallenges" expanded="True">
-              <Node name="ContactUs.cs" selected="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="SignIn.cs" selected="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="automationChallenges" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
@@ -19,7 +26,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.automationChallenges PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jogomez/Documents/Jorge Gomez/Workspaces/QA Automation/automationChallenges/automationChallenges/SignIn.cs" relfile="automationChallenges/SignIn.cs" line="40" column="13" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
