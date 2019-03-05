@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{C0FCA61A-C63B-4E83-A8BB-6617469EC1FF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="automationChallenges/SignIn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="automationChallenges/RegisterAccount.cs">
     <Files>
-      <File FileName="automationChallenges/SignIn.cs" Line="10" Column="16" />
-      <File FileName="automationChallenges/RegisterAccount.cs" Line="10" Column="5" />
+      <File FileName="automationChallenges/SignIn.cs" Line="25" Column="28" />
+      <File FileName="automationChallenges/RegisterAccount.cs" Line="26" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,7 @@
           <Node name="automationChallenges" expanded="True">
             <Node name="automationChallenges" expanded="True">
               <Node name="Resources" expanded="True" />
-              <Node name="SignIn.cs" selected="True" />
+              <Node name="RegisterAccount.cs" selected="True" />
             </Node>
           </Node>
         </State>

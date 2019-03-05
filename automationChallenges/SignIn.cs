@@ -22,7 +22,7 @@ namespace automationChallenges
         public void TestMethod1()
         {
             //Data
-            string email = $"myemail@server.com";
+            string email = "myemail1@server.com";
             string pswd = "thisIsMyPassword";
 
             //Enter Homepage
@@ -31,10 +31,16 @@ namespace automationChallenges
             //Enter Sign-in page
             driver.FindElement(By.ClassName("login")).Click();
 
+            //Wait for site to load
+            Thread.Sleep(5000);
+
             //Input email and password
             driver.FindElement(By.Id("email")).SendKeys(email);
-            driver.FindElement(By.Id("password")).SendKeys(pswd);
+            driver.FindElement(By.Id("passwd")).SendKeys(pswd);
             driver.FindElement(By.Id("SubmitLogin")).Click();
+
+            //Wait for site to load
+            Thread.Sleep(5000);
 
             //Verify Login
             string confirmation = driver.FindElement(By.ClassName("info-account")).Text;

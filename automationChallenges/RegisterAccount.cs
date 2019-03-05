@@ -32,6 +32,9 @@ namespace automationChallenges
             //Enter Sign-in page
             driver.FindElement(By.ClassName("login")).Click();
 
+            //Wait for site to load
+            Thread.Sleep(5000);
+
             //Submit the email for account creation
             driver.FindElement(By.Id("email_create")).SendKeys(email);
             driver.FindElement(By.Id("SubmitCreate")).Click();
@@ -40,6 +43,9 @@ namespace automationChallenges
             Thread.Sleep(5000);
 
             FillForm(pswd);
+
+            //Wait for site to load
+            Thread.Sleep(5000);
 
             //Verify Account Creation
             string confirmation = driver.FindElement(By.ClassName("info-account")).Text;
