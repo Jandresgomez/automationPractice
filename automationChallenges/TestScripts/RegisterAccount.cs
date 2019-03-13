@@ -5,7 +5,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
 
-namespace automationChallenges
+namespace automationChallenges.TestScripts
 {
     [TestClass]
     public class RegisterAccount
